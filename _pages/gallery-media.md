@@ -58,6 +58,12 @@ assembly and phylogenomics.
   <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" src="https://www.youtube.com/embed/Jrf1MitsTNI" title="Phylogenomics I" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
+### Science Communication
+
+Popular-science article (in Spanish) on how leaf-nosed bats shifted their diets,
+written for a general audience:
+[Del dulce néctar a la férrea sangre: cómo cambiaron de dieta los murciélagos](https://tengaparaqueseentretenga.wordpress.com/2020/07/14/del-dulce-nectar-a-la-ferrea-sangre-como-cambiaron-de-dieta-los-murcielagos/){: .btn .btn--info}
+
 ### Women in Science
 
 Featured in a #GenMoz / CISM Manhiça post highlighting women in science and
