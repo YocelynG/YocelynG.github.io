@@ -1,0 +1,58 @@
+/* ==========================================================================
+    MEXICAN CULTURE THEME - DARK VERSION
+    Palette: Baja White #fcfaeb, Medium Aquamarine #5DC7A4,
+             Soft Navy Blue #3A3F87, Fascinating Magenta #820F8A,
+             Apple Juice #F0983E
+    ========================================================================== */
+
+/* Color codes used for the theme */
+$primary-color              : #5DC7A4; // Medium Aquamarine (accent on dark)
+$dark-primary-color         : mix(#000, $primary-color, 40%);
+$darker-primary-color       : mix(#000, $primary-color, 60%);
+$light-primary-color        : mix(#fff, $primary-color, 20%);
+
+$background                 : #2B2F66; // deep Soft Navy Blue
+$background-light           : mix(#fff, $background, 18%);
+$background-lighter         : mix(#fff, $background, 85%);
+$text                       : #fcfaeb; // Baja White
+$link                       : #B58605; // gold (replaces magenta)
+$link-dark                  : mix(#000, $link, 20%);
+$link-light                 : mix(#fff, $link, 25%);
+$footer                     : mix(#000, $background, 30%);
+
+/* Color codes used for the site */
+$danger-color               : #B58605; // gold (replaces magenta)
+$info-color                 : #5DC7A4; // Aquamarine
+$notice-color               : #7a8288;
+$success-color              : #5DC7A4; // Aquamarine
+$warning-color              : #F0983E; // Apple Juice
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Dark theme for the site */
+html[data-theme="dark"] {
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$footer};
+    --global-border-color               : #{$light-primary-color};
+    --global-dark-border-color          : #{$background-light};
+    --global-code-background-color      : #1f2350;
+    --global-code-text-color            : #{$light-primary-color};
+    --global-fig-caption-color          : #{$light-primary-color};
+    --global-link-color                 : #{$link};
+    --global-link-color-hover           : #{$link-light};
+    --global-link-color-visited         : #{$link-light};
+    --global-masthead-link-color        : #{$text};
+    --global-masthead-link-color-hover  : #{$primary-color};
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #{$light-primary-color};
+    --global-thead-color                : #{$background-lighter};
+}

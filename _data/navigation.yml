@@ -1,0 +1,39 @@
+# The following is the order of the links in the header of the website.
+#
+# Changing the order here will adjust the order and you can also add additional
+# links. Removing a link prevents it from showing in the header, but does not
+# prevent it from being included in the site.
+
+main:
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Presentations"
+    url: /talks/
+
+  - title: "Mentoring"
+    url: /mentoring/
+
+  - title: "Outreach"
+    url: /outreach/
+
+  - title: "Awards and Grants"
+    url: /awards/
+
+  - title: "Projects Ongoing"
+    url: /projects/
+
+  - title: "Gallery and Media"
+    url: /gallery-media/
+
+  - title: "Resources"
+    url: /resources/
+
+  - title: "Experience"
+    url: /experience/
+
+  - title: "CV"
+    url: /cv/
